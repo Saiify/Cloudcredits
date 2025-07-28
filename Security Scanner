@@ -1,0 +1,11 @@
+security-scanner/
+├── README.md
+├── scanner.py
+├── modules/
+│   ├── port_scanner.py
+│   ├── header_checker.py
+│   ├── ssl_checker.py
+│   └── dir_bruteforce.py
+├── reports/
+│   └── target1_report.txt
+└── requirements.txt
