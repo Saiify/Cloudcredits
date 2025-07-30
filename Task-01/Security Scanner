@@ -1,1 +1,107 @@
+## 🔐 Types of Security Scanners
+
+Security scanners are categorized based on what they scan and how they perform the scanning process. Below is an overview of the major types:
+
+---
+
+### 🔷 1. Network Security Scanners
+
+Scan networks, hosts, and open ports to detect vulnerabilities or exposed services.
+
+**🛠️ Tools:** Nmap, Nessus, OpenVAS, Angry IP Scanner  
+**📌 Purpose:**
+- Port and service detection
+- OS fingerprinting
+- Service version identification
+- Detecting open and vulnerable ports
+
+---
+
+### 🔷 2. Web Application Scanners
+
+Focus on discovering vulnerabilities in web apps and APIs.
+
+**🛠️ Tools:** Burp Suite Pro, OWASP ZAP, Nikto, Acunetix  
+**📌 Purpose:**
+- Scan for OWASP Top 10 flaws (XSS, SQLi, CSRF, etc.)
+- Technology fingerprinting
+- Crawling web applications
+- Testing input/output security
+
+---
+
+### 🔷 3. Vulnerability Scanners
+
+Detect known CVEs and misconfigurations using security databases.
+
+**🛠️ Tools:** Nessus, Qualys, Nexpose, OpenVAS  
+**📌 Purpose:**
+- CVE-based scanning
+- Risk scoring (Low to Critical)
+- Security compliance checks (PCI, HIPAA)
+
+---
+
+### 🔷 4. Cloud Security Scanners
+
+Evaluate the security of cloud infrastructure (AWS, Azure, GCP).
+
+**🛠️ Tools:** ScoutSuite, Prowler, Prisma Cloud, AWS Inspector  
+**📌 Purpose:**
+- Check IAM permissions
+- Detect public S3 buckets
+- Identify cloud misconfigurations
+
+---
+
+### 🔷 5. Static Application Security Testing (SAST) Scanners
+
+Scan source code for insecure patterns without running the application.
+
+**🛠️ Tools:** SonarQube, Checkmarx, Bandit  
+**📌 Purpose:**
+- Detect insecure code
+- Find hardcoded credentials/secrets
+- Prevent logic flaws at development time
+
+---
+
+### 🔷 6. Dynamic Application Security Testing (DAST) Scanners
+
+Test running applications by simulating real-world attacks.
+
+**🛠️ Tools:** Burp Suite Pro, OWASP ZAP, Nikto  
+**📌 Purpose:**
+- Perform runtime scanning
+- Test input/output responses
+- Simulate attack scenarios
+
+---
+
+### 🔷 7. Container and DevSecOps Scanners
+
+Scan Docker images, CI/CD pipelines, and Infrastructure-as-Code for security flaws.
+
+**🛠️ Tools:** Trivy, Clair, Snyk, Anchore  
+**📌 Purpose:**
+- Detect vulnerable packages in containers
+- Scan Dockerfiles and base images
+- Secure DevOps workflows
+
+---
+
+### ✅ Summary Table
+
+| Type                      | Focus Area                 | Example Tools                |
+|---------------------------|----------------------------|------------------------------|
+| Network Scanners          | Ports, services, OS        | Nmap, Nessus, OpenVAS        |
+| Web App Scanners          | Websites, APIs             | Burp Suite, ZAP, Nikto       |
+| Vulnerability Scanners    | CVEs, known flaws          | Qualys, OpenVAS, Nessus      |
+| Cloud Scanners            | AWS/Azure/GCP config       | ScoutSuite, Prowler          |
+| SAST Scanners             | Source code (static)       | SonarQube, Bandit            |
+| DAST Scanners             | Live app testing (dynamic) | Burp Pro, ZAP                |
+| DevSecOps Scanners        | Containers & pipelines     | Trivy, Snyk, Anchore         |
+
+---
+
 
