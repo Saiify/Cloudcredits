@@ -1,0 +1,14 @@
+Project-1_Security-Scanner/
+├── scanner.py                  # Main Python script
+├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies
+├── config/                     # Burp/Nmap config files (optional)
+│   └── burp-config.json
+├── output/                     # Scan result reports
+│   ├── nmap_scan.txt
+│   ├── burp_scan_report.html
+│   └── summary.md
+├── reports/                    # Screenshots, diagrams, and custom writeups
+│   └── screenshot1.png
+├── .gitignore                  # Files/folders to exclude from git
+└── LICENSE                     # (Optional) Open-source license info
